@@ -5,34 +5,23 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby's default with products
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+This project uses the Gatsby default starter with the gatsby-source-shopify plugin to demonstrate Gatsby as a headless framework for Technology Services as part of Kickoff 2020. This is "headless Shopify in five minutes and three files": gatsby-node.js handles page creation, /src/templates/product.js handles the PDP view, and you'll need to populate gatsby-config.js with your storename and a Storefront API-enabled app's access token.
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the default starter.
-
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
-
 1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Install the gatsby CLI and start the site.
 
     ```shell
-    cd my-default-starter/
+    npm install -g gatsby
     gatsby develop
     ```
 
-1.  **Open the source code and start editing!**
+2.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
 
